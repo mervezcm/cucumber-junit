@@ -46,6 +46,9 @@ public class OrderPage extends BasePage {
     @FindBy(css = "button[type='submit']")
     public WebElement processOrderBtn;
 
+    @FindBy(xpath = "//input[@name='zip']")
+    public WebElement inputZip2;
+
 
 
 }
